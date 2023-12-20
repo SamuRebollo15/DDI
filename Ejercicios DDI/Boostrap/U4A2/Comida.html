@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Bootstrap CSS v5.3.2 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#CollapseNavbar">
+							&#9776;
+						</button>
+						<a class="navbar-brand" href="Index.html"><img src="https://img.freepik.com/premium-vector/chinese-food-isolated-flat-cartoon-illustration-icon-isolated-white-noodles-box-original-recipe-chopsticks-wok-noodles-chinese-food-logo_92289-504.jpg"
+							class="card-img-top img-fluid" alt="Logo" style="width: 150px;height: auto;"></a>
+						<div class="collapse navbar-collapse" id="CollapseNavbar">
+							<ul class="navbar-nav col-7">
+								<li class="nav-item">
+									<a class="nav-link active" href="Index.html"><em class="bi bi-house-fill fs-4"></em> Home <span
+											class="sr-only"></span></a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="Comida.html" ><em class="bi bi-alipay fs-4"></em> Comida</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="Ubicacion.html"><em class="bi bi-geo-alt-fill fs-4" ></em> Info</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="Reservar.html"><em class="bi bi-telephone-fill fs-4"></em> Reservar</a>
+								</li>
+							</ul>
+
+							<form class="d-flex col-lg-5">
+								<label for="buscador" class="mt-2 me-1">Buscador: </label>
+								<input class="form-control" type="text" name="buscador" id="buscador" placeholder="Buscar...">
+								<button class="btn btn-primary " type="submit">Search</button>
+							</form>
+						</div>
+					</div>
+				</nav>	
+			</div>
+		</div>
+		<div class="row">	
+			<div class="table-responsive ">
+				<table
+					class="table align-middle table-bordered border-secondary text-center table-striped overflow-auto ">
+					<thead>
+						<tr class="text-start ">
+							<th scope="col" class="col-2">Plato</th>
+							<th scope="col" class="col-6">Nombre</th>
+							<th scope="col" class="col-2">Precio</th>
+							<th scope="col" class="col-2">Iformación nutricional</th>
+						</tr>
+					</thead>
+					<tbody class="align-items-center">
+						<tr>
+							<td>
+								<img src="https://static.toiimg.com/thumb/75581339.cms?imgsize=1753029&width=800&height=800" class="img-fluid"
+									alt="Bicicleta Scott Addict RC Ultimate 2023">
+							</td>
+							<td>Arroz frito con huevo</td>
+							<td class="text-end">9,50 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu1"
+											data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											info
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropDownMenu1">
+											<a class="dropdown-item" href="#">Calorias </a>
+											<a class="dropdown-item" href="#">Alérgenos</a>
+											
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="https://woonheng.com/wp-content/uploads/2021/03/Cantonese-Soy-Sauce-Fried-Noodle.jpg" class="img-fluid"
+									alt="Bicicleta Scott Aspect 920 2023">
+							</td>
+							<td>Tallarines fritos  </td>
+							<td class="text-end">8,70 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu2"
+											data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											info
+										</button>
+
+										<div class="dropdown-menu" aria-labelledby="dropDownMenu1">
+											<a class="dropdown-item" href="#">Calorias </a>
+											<a class="dropdown-item" href="#">Alérgenos</a>
+											
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="https://chefeel.com/chefgeneralfiles/2022/01/patopekin-scaled.jpg " class="img-fluid"
+									alt="Bicicleta Scott Addict 10 Greeen 2023">
+							</td>
+							<td>Pato al estilo Pekín</td>
+							<td class="text-end">12,50 €</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu3"
+											data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											info
+										</button>
+										<div class="dropdown-menu" aria-labelledby="dropDownMenu1">
+											<a class="dropdown-item" href="#">Calorias </a>
+											<a class="dropdown-item" href="#">Alérgenos</a>
+											
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="https://www.orientalmarket.es/wp-content/uploads/2019/02/dim-sum-1-1024x682.jpg" class="img-fluid"
+									alt="Bicicleta Scott Lumen eRide 900 2023">
+							</td>
+							<td>Dim sums de cerdo</td>
+							<td class="text-end">8€</td>
+							<td>
+								<div class="dropdown">
+									<div class="btn-group dropup">
+										<button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenu4"
+											data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											info
+										</button>
+
+										<div class="dropdown-menu" aria-labelledby="dropDownMenu1">
+											<a class="dropdown-item" href="#">Calorias </a>
+											<a class="dropdown-item" href="#">Alérgenos</a>
+											
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap 5.3.2 popperjs y javascript-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+		integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+		crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
